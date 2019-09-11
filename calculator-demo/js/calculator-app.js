@@ -1,0 +1,18 @@
+"use strict";
+var readlineSync = require('readline-sync');
+console.log("Welcome to my calcluator!");
+var str = readlineSync.question('Whats your name? ');
+console.log("Hello, " + str);
+var n1 = readlineSync.questionInt('number 1?');
+var n2 = readlineSync.questionInt('number 2?');
+var sum = n1 + n2;
+var diff = n1 - n2;
+var pdt = n1 * n2;
+var qt = n1 / n2;
+var mod = n1 % n2;
+console.log("sum = " + sum);
+console.log("diff = " + diff);
+console.log("pdt = " + pdt);
+console.log("qt = " + qt);
+console.log("mod = " + mod);
+console.log("bye");
